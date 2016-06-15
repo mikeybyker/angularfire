@@ -139,7 +139,7 @@
      */
     signOut: function() {
       if (this.getAuth() !== null) {
-        this._auth.signOut();
+        return this._auth.signOut();
       }
     },
 
